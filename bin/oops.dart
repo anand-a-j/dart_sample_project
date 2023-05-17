@@ -1,7 +1,6 @@
 class car {
   String? model;
   String? color;
-  String? engine;
   static String? brand = 'Maruthi Suzuki';
 }
 
@@ -12,8 +11,7 @@ void main() {
   print(car.brand);
 
   car c2 = car();
-  print("Car model : ${c1.model = "Alto"}");
-  print("Car color : ${c1.color = "White"}");
+  print("Car model : ${c2.model = "Alto"}");
+  print("Car color : ${c2.color = "White"}");
   print(car.brand);
 }
-
