@@ -1,27 +1,29 @@
-int a=50;
-int b=20;
+int a = 50;
+int b = 20;
 
-void add(){
-  print("sum= ${a+b}");
-}
-
-void sub(){
-  print("Subtraction= ${a-b}");
+void add() {
+  print("sum= ${a + b}");
 }
 
-void mul(){
-  print("Multiplication= ${a*b}");
+void sub() {
+  print("Subtraction= ${a - b}");
 }
 
-void div(){
-  print("Division= ${a/b}");
+void mul() {
+  print("Multiplication= ${a * b}");
 }
-void main(){
- add();
- sub();
- mul();
- div();
+
+void div() {
+  print("Division= ${a / b}");
 }
+
+void main() {
+  add();
+  sub();
+  mul();
+  div();
+}
+
 /*
 functions
 -- set of statements tp perform particular task or operation
