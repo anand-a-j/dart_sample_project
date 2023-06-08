@@ -21,6 +21,7 @@ void main(){
     "degree" : "b com"
   };
 
+  /// Constructors
   var m4 = Map.from(m1); // Creates a LinkedHashMap with the same keys and values as other.
   print("m4 :$m4");
 
@@ -36,11 +37,17 @@ void main(){
   Map m8 = Map.fromEntries(m2.entries);  //Creates a new map and adds all entries. entries getter property ann
   print("m8 :$m8");
 
-  Map m9 = Map.fromIterable(m2.values); // Creates a Map instance in which the keys and values are computed from the iterable.
+  Map m9 = Map.fromIterable(m2.values); // Creates a Map instance in which the keys and values are computed from the iterable.| creating map from list and sets
   print("m9 :$m9");
 
-  Map m10 = Map.fromIterables(m2.keys, m2.values); // Creates a map associating the given keys to the given values.
+  var l = [1,2,3,4,5];
+  var s = {10,20,30,40,50};
+  Map m10 = Map.fromIterables(l,s); // Creates a map associating the given keys to the given values.
   print("m10 :$m10");
+
+  m10.forEach((key, value) {
+    print("$key : $value");
+  });
 }
 
 
