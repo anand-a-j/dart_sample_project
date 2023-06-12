@@ -19,7 +19,7 @@ class Bank {
       }
     }
   }
-}
+
 
 class ICICI extends Bank{
   double depositInterest = 6.5;
