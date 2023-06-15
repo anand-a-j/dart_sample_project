@@ -18,10 +18,6 @@ void display(){
 }
 
 void main(){
-
-
-
-
   myFunction obj = show;
   obj(21,'anand');
   obj(24,'aravind');
