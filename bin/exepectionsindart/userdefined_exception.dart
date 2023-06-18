@@ -1,7 +1,7 @@
 
 
 class MyException implements Exception{ // inheritance is to get exception behaviour
-String? msg;                   // to recieve custom msg when exception occurs
+String? msg;                   // to receive custom msg when exception occurs
 MyException([this.msg]);    // this will execute when exception object is called
 
  @override
@@ -14,7 +14,7 @@ void checkAge(int age){
   if(age>18){
     print("Welcome to vote");
   }else{
-    throw MyException("Not eligible to vote");      //throw keyword used for calling expection explicitiy
+    throw MyException("Not eligible to vote");      //throw keyword used for calling exception explicitly
   }
 }
 
